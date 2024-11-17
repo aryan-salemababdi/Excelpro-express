@@ -1,0 +1,17 @@
+{
+    "type": "postgres",
+    "host": "your-supabase-host",
+    "port": 5432,
+    "username": "your-supabase-username",
+    "password": "your-supabase-password",
+    "database": "your-database-name",
+    "synchronize": true,
+    "logging": true,
+    "entities": [
+      "src/entity/**/*.ts"
+    ],
+    "ssl": {
+      "rejectUnauthorized": false
+    }
+  }
+   
